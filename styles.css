@@ -1,0 +1,42 @@
+body{
+	text-align: center;
+	background-color: #586875;
+}
+.titulo{
+	color: #db1414;
+}
+.container-jogo{
+	display: flex;
+	justify-content: center;
+	margin: 50px;
+	align-items: center;
+}
+
+#img-esquerda{
+	width: 200px;
+	height: 200px;
+}
+#vs{
+	font-size: 75px;
+	margin: 10px;
+}
+
+#img-direita{
+	width: 200px;
+	height: 200px;
+}
+
+.escolhas{
+	color: #f6eee0;
+	background-color: #e81e4a;
+	width: 100px;
+	height: 50px;
+	border-radius: 16px;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.escolhas:hover{
+	color: #0b1d21;
+}
